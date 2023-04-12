@@ -27,7 +27,7 @@ My research interests lie primarily in the field of Natural Language Processing,
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL2023</div><img src='images/500x300.png' height="100%" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">No paper</div><img src='images/500x300.png' height="100%" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Under Review**
