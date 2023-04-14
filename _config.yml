@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yingpeng MA"
   avatar           : "images/me.jpg"
-  bio              : "Westlake University"
+  bio              : "Westlake University <img src='./images/westlake_logo.png' style='width: 3em;'>"
   location         : "Hangzhou, Zhejiang"
   employer         :
   pubmed           : 
