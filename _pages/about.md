@@ -22,7 +22,7 @@ Hello, I am Yingpeng Ma [jīŋpə́ŋ mǎ] (马英鹏). I am a Research Assist
 My research interests lie in the field of Natural Language Processing, Explainable AI and Data-centric AI.
 
 # 🔥 News
-- *2022.08*: 🔥 I join the Westlake NLP Group, embarking on a new journey in the field of NLP!
+- *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
 - *2022.06*: 🎉🎉 I complete my undergraduate studies within three years and am awarded for Excellent Graduation Thesis Award under the guidance of Prof.Chunwei Tian.
 
 # 📝 Publications
