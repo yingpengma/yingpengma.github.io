@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<h1 style="font-family: 'Trajan', serif; font-size: 24px;">Harmonize with LLMs, Ignite the NLP Renaissance. </h1>
+<h1 style="font-family: 'Trajan', serif; font-size: 24px; text-decoration: none;">HARMONIZE WITH LLMS  IGNITE THE NLP RENAISSANCE</h1>
 
 Hello, I am Yingpeng Ma [īŋpə́ŋ mǎ] (马英鹏). I am a Research Assistant at [Westlake NLP Group (西湖大学自然语言处理实验室)](https://westlakenlp.netlify.app/)  <img src='./images/westlakenlp_logo.jpg' style='width: 6em;'> , supervised by [Prof.Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr.Linyi Yang (杨林易)](https://www.linyi-yang.me/). Prior to this, I obtained my B.E. degree at Northwestern Polytechnical University (西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof.Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
 
