@@ -21,7 +21,7 @@ redirect_from:
 
 Hello, I am Yingpeng Ma [īŋpə́ŋ mǎ] (马英鹏). I am a Research Assistant at [Westlake NLP Group (西湖大学自然语言处理实验室)](https://westlakenlp.netlify.app/)  <img src='./images/westlakenlp_logo.jpg' style='width: 6em;'> , supervised by [Prof.Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr.Linyi Yang (杨林易)](https://www.linyi-yang.me/). Prior to this, I obtained my B.E. degree at Northwestern Polytechnical University (西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof.Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
 
-My research interests lie in the field of Natural Language Processing, Explainable AI and Data-centric AI.
+My research interests lie in the field of Natural Language Processing, Model Editing, eXplainable AI and Data-centric AI. My motto is "Harmonize with LLMs, Ignite the NLP Renaissance."
 
 # 🔥 News
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
