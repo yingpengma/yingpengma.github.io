@@ -31,15 +31,11 @@ My research interests lie in the field of Natural Language Processing, Model Edi
 # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/FinTrust.png' height="100%" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 **Measuring Consistency in Text-based Financial Forecasting Models**
-
 Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
-
 <u>Paper</u> <u>Code</u>  
 </div>
 </div>
-
 ___* denotes equal contribution___
 
 <!--
