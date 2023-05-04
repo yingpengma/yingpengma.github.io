@@ -28,6 +28,9 @@ My research interests lie in the field of Natural Language Processing, Model Edi
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
 - *2022.06*: 🎉🎉 I complete my undergraduate studies within three years and am awarded for Excellent Graduation Thesis Award under the guidance of Prof.Chunwei Tian.
 
+# 📖 Educations
+- *2019.09 - 2022.06*, Undergraduate, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
+
 <h1 style="margin-bottom: -10px;">📝 Publications</h1>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/FinTrust.png' height="100%" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -57,8 +60,6 @@ Author\*, **Yingpeng Ma\***, Author
 
  -->
 
-# 📖 Educations
-- *2019.09 - 2022.06*, Undergraduate, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
 
 # 💻 Experiences
 - *2023.02 - present*, Research Assistant, WestlakeNLP @ Westlake University
