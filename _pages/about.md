@@ -39,7 +39,7 @@ My research interests lie in the field of Natural Language Processing, Model Edi
   
 Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
   
-<u>Paper</u> <u>Code</u>  
+<u>Paper</u> [Code](https://github.com/yingpengma/FinTrust)
 </div>
 </div>
 
