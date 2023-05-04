@@ -24,7 +24,7 @@ Hello, I am Yingpeng Ma [jīŋpéŋ mǎ] (马英鹏). I am a Research Assistant
 My research interests lie in the field of Natural Language Processing, Model Editing, eXplainable AI and Data-centric AI. My motto is "Harmonize with LLMs, Ignite the NLP Renaissance."
 
 # 🔥 News
-- *2023.05*: 🔥 🔥 One co-first author long paper has been accepted to ACL2023 main conference(core: A*, CCF: A). This is my first paper, I'm thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
+- *2023.05*: 🔥 🔥 One co-first author long paper has been accepted to ACL 2023 main conference(core: A*, CCF: A). This is my first paper, I'm thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
 - *2022.06*: 🎉🎉 I complete my undergraduate studies within three years and am awarded for Excellent Graduation Thesis Award under the guidance of Prof.Chunwei Tian.
 
@@ -32,7 +32,7 @@ My research interests lie in the field of Natural Language Processing, Model Edi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/FinTrust.png' height="100%" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-**Measuring Consistency in Text-based Financial Forecasting Models** <img src='./images/ccfa.png' style='width: 2em;vertical-align: top;'>
+**Measuring Consistency in Text-based Financial Forecasting Models** <img src='./images/ccfa.png' style='width: 2em;vertical-align: middle;'>
   
 Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
   
