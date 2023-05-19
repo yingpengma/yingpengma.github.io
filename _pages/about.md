@@ -71,3 +71,18 @@ Author\*, **Yingpeng Ma\***, Author
 - *2021*, Excellent Student Award, Northwestern Polytechnical University
 - *2021*, Second-Class Scholarship (top 15%), Northwestern Polytechnical University
 - *2020*, National First Prize, the 15th National University Students Intelligent Car Race
+
+# 📡 Useful Resources
+- [AI Conference Deadlines](https://aideadlin.es/?sub=NLP,ML): Countdowns to top NLP/ML/AI conference deadlines.
+- [Global Equality for PhDs](https://github.com/zhijing-jin/nlp-phd-global-equality): Resources to help global equality for PhDs in NLP/AI.
+
+<!--
+Writing Perfect Papers ([Bilibili](https://www.bilibili.com/video/BV18v411n7mr/?spm_id_from=333.999.0.0) | [Youtube](https://www.youtube.com/watch?v=nUnmQmOOG4E) | [Slides](https://iqua.ece.toronto.edu/papers/writing-perfect-papers-2021.pdf)): A long talk on writing "perfect papers" (by Prof. Baochun Li).
+[Sebastian Ruder's Blog](https://ruder.io/): Sebastian Ruder's blog with deep insights about NLP/ML/DL.
+[Lilian Weng's Blog](https://lilianweng.github.io/): Lilian Weng's blog with broad learning notes about DL/NLP.
+[Jay Alammar's Blog](https://jalammar.github.io/): Visualizations and animations for many language models (Transformer, BERT, etc).
+[Scientific Spaces](https://kexue.fm/): Jianlin Su's blog (in Chinese) about ML|NLP theories with deep explorations.
+[Jian Wang's Paper reading list](https://github.com/iwangjian/Paper-Reading): Paper reading list in dialogue systems and natural language generation
+
+
+ -->
