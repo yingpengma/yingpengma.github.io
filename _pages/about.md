@@ -24,7 +24,7 @@ Hello, I am Yingpeng Ma [jīŋpéŋ mǎ] (马英鹏). I am a Research Assistant
 My research interests lie in the field of Natural Language Processing, Specialized LLM and Data-centric AI. My motto is "Harmonize with LLMs, Ignite the NLP Renaissance."
 
 # 🔥 News
-- *2023.05*: 🔥 🔥 One co-first author long paper has been accepted to ACL 2023 main conference(core: A*, CCF: A). This is my first paper, I'm thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
+- *2023.05*: 🔥 🔥 One co-first author long paper has been accepted to ACL 2023 main conference. This is my first paper, I'm thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
 - *2022.06*: 🎉🎉 I complete my undergraduate studies within three years and am awarded for Excellent Graduation Thesis Award under the guidance of Prof.Chunwei Tian.
 
