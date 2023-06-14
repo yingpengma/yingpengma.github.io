@@ -29,7 +29,7 @@ My research interests lie in the field of Natural Language Processing and Evalua
 - *2022.06*: 🎉🎉 I complete my undergraduate studies within three years and am awarded for Excellent Graduation Thesis Award under the guidance of Prof.Chunwei Tian.
 
 # 📖 Educations
-- *2019.09 - 2022.06*, Undergraduate, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
+- *2019.09 - 2022.06*, Bachelor, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
 
 <h1 style="margin-bottom: -10px;">📝 Publications</h1>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/FinTrust.png' height="100%" width="100%"></div></div>
