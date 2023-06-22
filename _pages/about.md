@@ -19,17 +19,17 @@ redirect_from:
 
 <h1 style="font-family: 'Trajan', serif; font-size: 22px; text-decoration: none; border-bottom: none;">HARMONIZE WITH LLMS&nbsp; IGNITE THE NLP RENAISSANCE</h1>
 
-Hello, I am Yingpeng Ma [jīŋpéŋ mǎ] (马英鹏). I am a Research Assistant at [Westlake NLP Group (西湖大学自然语言处理实验室)](https://westlakenlp.netlify.app/)  <img src='./images/westlakenlp_logo.jpg' style='width: 6em;'> , supervised by [Prof.Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr.Linyi Yang (杨林易)](https://www.linyi-yang.me/). Prior to this, I obtained my B.E. degree at Northwestern Polytechnical University (西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof.Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
+Hello, I am **Yingpeng Ma** [jīŋpéŋ mǎ] (马英鹏). I am a Research Assistant at [Westlake NLP Group (西湖大学自然语言处理实验室)](https://westlakenlp.netlify.app/)  <img src='./images/westlakenlp_logo.jpg' style='width: 6em;'> , supervised by [Prof.Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr.Linyi Yang (杨林易)](https://yanglinyi.github.io/). Prior to this, I obtained my B.E. degree at **Northwestern Polytechnical University** (NWPU, 西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof.Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
 
-My research interests lie in the field of Natural Language Processing and Evaluation, with a particular focus on Story Generation, Controllable Text Generation, and Large Language Model Related research. My motto is "Harmonize with LLMs, Ignite the NLP Renaissance."
+My research interests lie in the field of **Natural Language Processing**, with a particular focus on **Story Generation** and **Large Language Model Related** research. My motto is "Harmonize with LLMs, Ignite the NLP Renaissance."
 
 # 🔥 News
-- *2023.05*: 🔥 🔥 One co-first author long paper has been accepted to ACL 2023 main conference. This is my first paper, I'm thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
+- *2023.05*: 🔥 🔥 One co-first author long paper has been accepted to **ACL 2023** main conference. This is my first paper, I'm thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
-- *2022.06*: 🎉🎉 I complete my undergraduate studies within three years and am awarded the Excellent Graduation Thesis Award under the guidance of Prof.Chunwei Tian.
+- *2022.06*: 🎉🎉 I complete my undergraduate studies within **three** years and am awarded the Excellent Graduation Thesis Award under the guidance of Prof.Chunwei Tian.
 
 # 📖 Educations
-- *2019.09 - 2022.06*, Bachelor, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
+- *2019.09 - 2022.06*, **Bachelor**, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
 
 <h1 style="margin-bottom: -10px;">📝 Publications</h1>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/FinTrust.png' height="100%" width="100%"></div></div>
@@ -62,15 +62,15 @@ Author\*, **Yingpeng Ma\***, Author
 
 
 # 💻 Experiences
-- *2023.02 - present*, Research Assistant, WestlakeNLP @ Westlake University
-- *2022.08 - 2023.01*, Intern, WestlakeNLP @ Westlake University
+- *2023.02 - present*, **Research Assistant**, WestlakeNLP @ Westlake University
+- *2022.08 - 2023.01*, **Intern**, WestlakeNLP @ Westlake University
 
 
 # 🎖 Honors and Awards
-- *2022*, Excellent Graduation Thesis Award (top 2%), Northwestern Polytechnical University
-- *2021*, Excellent Student Award, Northwestern Polytechnical University
-- *2021*, Second-Class Scholarship (top 15%), Northwestern Polytechnical University
-- *2020*, National First Prize, the 15th National University Students Intelligent Car Race
+- *2022*, **Excellent Graduation Thesis Award** (top 2%), Northwestern Polytechnical University
+- *2021*, **Excellent Student Award**, Northwestern Polytechnical University
+- *2021*, **Second-Class Scholarship** (top 15%), Northwestern Polytechnical University
+- *2020*, **National First Prize**, the 15th National University Students Intelligent Car Race
 
 # 📡 Useful Resources
 - [AI Conference Deadlines](https://aideadlin.es/?sub=NLP,ML): Countdowns to top NLP/ML/AI conference deadlines.
