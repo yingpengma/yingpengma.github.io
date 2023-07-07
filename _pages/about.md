@@ -19,17 +19,17 @@ redirect_from:
 
 <h1 style="font-family: 'Trajan', serif; font-size: 22px; text-decoration: none; border-bottom: none;">HARMONIZE WITH LLMS&nbsp; IGNITE THE NLP RENAISSANCE</h1>
 
-Hello, I am **Yingpeng Ma** [jīŋpéŋ mǎ] (马英鹏). I am a Research Assistant at [Westlake NLP Group (西湖大学自然语言处理实验室)](https://westlakenlp.netlify.app/)  <img src='./images/westlakenlp_logo.jpg' style='width: 6em;'> , supervised by [Prof.Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr.Linyi Yang (杨林易)](https://yanglinyi.github.io/). Prior to this, I obtained my B.E. degree at **Northwestern Polytechnical University** (NWPU, 西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof.Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
+Hello, I am **Yingpeng Ma** [jīŋpéŋ mǎ] (马英鹏). I am a Research Assistant at [Westlake NLP Group (西湖大学自然语言处理实验室)](https://westlakenlp.netlify.app/)  <img src='./images/westlakenlp_logo.jpg' style='width: 6em;'> , supervised by [Prof.Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr.Linyi Yang (杨林易)](https://yanglinyi.github.io/). Before this, I obtained my B.E. degree at **Northwestern Polytechnical University** (NWPU, 西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof.Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
 
-My research interests lie in the field of **Natural Language Processing**, with a particular focus on **Natural Language Generation**, **Storytelling** and **Large Language Model Related** research. My motto is "Harmonize with LLMs, Ignite the NLP Renaissance."
+My research interests lie in the field of **Natural Language Processing**, with a particular focus on **Natural Language Generation**, **Storytelling** and **Large Language Model Related** research. My motto is, "Harmonize with LLMs, Ignite the NLP Renaissance."
 
 # 🔥 News
-- *2023.05*: 🔥 🔥 One co-first author long paper has been accepted to **ACL 2023** main conference. This is my first paper, I'm thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
+- *2023.05*: 🔥 🔥 One co-first author long paper has been accepted to **ACL 2023** main conference. This is my first paper, I am thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
-- *2022.06*: 🎉🎉 I complete my undergraduate studies within **3** years and am awarded the Excellent Graduation Thesis Award under the guidance of Prof.Chunwei Tian.
+- *2022.06*: 🎉🎉 I completed my undergraduate studies within **3** years and was awarded the Excellent Graduation Thesis Award under the guidance of Prof.Chunwei Tian.
 
 # 📖 Educations
-- *2019.09 - 2022.06*, **Bachelor**, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
+- *2019.09 - 2022.06*, **Bachelor**'s degree, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
 
 <h1 style="margin-bottom: -10px;">📝 Publications</h1>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/FinTrust.png' height="100%" width="100%"></div></div>
@@ -74,7 +74,7 @@ Author\*, **Yingpeng Ma\***, Author
 
 # 📡 Useful Resources
 - [AI Conference Deadlines](https://aideadlin.es/?sub=NLP,ML): Countdowns to top NLP/ML/AI conference deadlines.
-- [Global Equality for PhDs](https://github.com/zhijing-jin/nlp-phd-global-equality): Resources to help global equality for PhDs in NLP/AI.
+- [Global Equality for PhDs](https://github.com/zhijing-jin/nlp-phd-global-equality): Resources to promote global equality for PhDs in NLP/AI.
 
 <!--
 Writing Perfect Papers ([Bilibili](https://www.bilibili.com/video/BV18v411n7mr/?spm_id_from=333.999.0.0) | [Youtube](https://www.youtube.com/watch?v=nUnmQmOOG4E) | [Slides](https://iqua.ece.toronto.edu/papers/writing-perfect-papers-2021.pdf)): A long talk on writing "perfect papers" (by Prof. Baochun Li).
