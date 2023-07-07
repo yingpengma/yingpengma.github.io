@@ -28,7 +28,7 @@ My research interests lie in the field of **Natural Language Processing**, with 
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
 - *2022.06*: 🎉🎉 I completed my undergraduate studies within **3** years and was awarded the Excellent Graduation Thesis Award under the guidance of Prof.Chunwei Tian.
 
-# 📖 Educations
+# 📖 Education
 - *2019.09 - 2022.06*, **Bachelor**'s degree, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
 
 <h1 style="margin-bottom: -10px;">📝 Publications</h1>
@@ -61,7 +61,7 @@ Author\*, **Yingpeng Ma\***, Author
  -->
 
 
-# 💻 Experiences
+# 💻 Experience
 - *2023.02 - present*, **Research Assistant**, WestlakeNLP @ Westlake University
 - *2022.08 - 2023.01*, **Intern**, WestlakeNLP @ Westlake University
 
