@@ -23,12 +23,12 @@ Hello, I am **Yingpeng Ma** [jīŋpéŋ mǎ] (马英鹏). I am a Research Assis
 
 My research interests lie in the field of **Natural Language Processing**, with a particular focus on **Persona Agents**, **Storytelling** and other **Large Language Model Related** research. My motto is, "Harmonize with LLMs, Ignite the NLP Renaissance."
 
-# 🔥 News
+# ⚡ News
 - *2023.05*: 🔥 🔥 One co-first author long paper has been accepted by **ACL 2023** main conference. This is my first paper, I am thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
 - *2022.06*: 🎉🎉 I completed my undergraduate studies within **three** years and was awarded the Excellent Graduation Thesis Award under the guidance of Prof. Chunwei Tian.
 
-# 📖 Education
+# 🎓 Education
 - *2019.09 - 2022.06*, **Bachelor**'s degree, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
 
 <h1 style="margin-bottom: -10px;">📝 Publications</h1>
@@ -61,7 +61,7 @@ Author\*, **Yingpeng Ma\***, Author
  -->
 
 
-# 💻 Experience
+# 🌱 Experience
 - *2023.02 - present*, **Research Assistant**, WestlakeNLP @ Westlake University
 - *2022.08 - 2023.01*, **Intern**, WestlakeNLP @ Westlake University
 
