@@ -6,14 +6,15 @@ main:
   - title: "News"
     url: "/#-news"
     
-  - title: "Education"
-    url: "/#-education"
+  - title: "Repositories"
+    url: "/#-repositories"
     
   - title: "Publications"
+    url: "/#-repositories"
+
+
+  - title: "Education"
     url: "/#-education"
-
-
-
 
   - title: "Experience"
     url: "/#-experience"
