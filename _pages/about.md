@@ -36,7 +36,7 @@ My research interests lie in the field of **Natural Language Processing**, with 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/FinTrust.png' height="100%" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-**Measuring Consistency in Text-based Financial Forecasting Models** <img src='./images/ccfa.png' style='width: 2em;vertical-align: middle;transform: translateY(-1px);'> [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/fad03a833345b38323d97ee4818d341d6ba4fbdf?fields=citationCount)]()
+**Measuring Consistency in Text-based Financial Forecasting Models** [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/fad03a833345b38323d97ee4818d341d6ba4fbdf?fields=citationCount)]()
   
 Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
   
