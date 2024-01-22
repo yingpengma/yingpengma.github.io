@@ -21,18 +21,19 @@ redirect_from:
 
 Hello, I am **Yingpeng Ma** [jīŋpéŋ mǎ] (马英鹏). I am a Research Assistant at [Westlake NLP Group (西湖大学自然语言处理实验室)](https://westlake-nlp.github.io/)  <img src='./images/westlakenlp_logo.jpg' style='width: 6em;'> , supervised by [Prof. Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr. Linyi Yang (杨林易)](https://yanglinyi.github.io/). Before this, I obtained my B.E. degree at **Northwestern Polytechnical University** (NWPU, 西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof. Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
 
-My research interests lie in the field of **Natural Language Processing**, with a particular focus on **Persona Agents**, **Storytelling** and other **Large Language Model Related** research. My motto is, "Harmonize with LLMs, Ignite the NLP Renaissance."
+My research interests lie in the field of **Natural Language Processing**, with a particular focus on **Large Language Model** related research.
 
 # ⚡ News
 - *2023.05*: 🔥 🔥 One co-first author long paper has been accepted by **ACL 2023** main conference. This is my first paper, I am thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
 - *2022.06*: 🎉🎉 I completed my undergraduate studies within **3** years and was awarded the Excellent Graduation Thesis Award under the guidance of Prof. Chunwei Tian.
 
-# 🌱 Repositories
+# 🌱 Repository
 「 **[Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation)** 」「 **[FinTrust](https://github.com/yingpengma/FinTrust)** 」
+|**[Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation)**|**[FinTrust](https://github.com/yingpengma/FinTrust)**|
+|:---:|:---:|
 
-
-<h1 style="margin-bottom: -10px;">📝 Publications</h1>
+<h1 style="margin-bottom: -10px;">📝 Publication</h1>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/FinTrust.png' height="100%" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -40,7 +41,7 @@ My research interests lie in the field of **Natural Language Processing**, with 
   
 Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
   
-[Paper](https://arxiv.org/abs/2305.08524) [Code](https://github.com/yingpengma/FinTrust)
+[Paper](https://aclanthology.org/2023.acl-long.769/) [Code](https://github.com/yingpengma/FinTrust)
 </div>
 </div>
 
@@ -66,17 +67,17 @@ Author\*, **Yingpeng Ma\***, Author
 
 
 # 💻 Experience
-- *2023.02 - present*, **Research Assistant**, WestlakeNLP @ Westlake University
-- *2022.08 - 2023.01*, **Intern**, WestlakeNLP @ Westlake University
+- *2023.02 - present*, **Research Assistant**, Westlake NLP Group @ Westlake University
+- *2022.08 - 2023.01*, **Intern**, Westlake NLP Group @ Westlake University
+- *2021.07 - 2022.07*, **Intern**, Perception Vision Group @ Northwestern Polytechnical University
 
-
-# 🏆 Honors and Awards
+# 🏆 Honor and Award
 - *2022*, **Excellent Graduation Thesis Award** (top 2%), Northwestern Polytechnical University
 - *2021*, **Excellent Student Award**, Northwestern Polytechnical University
 - *2021*, **Second-Class Scholarship** (top 15%), Northwestern Polytechnical University
 - *2020*, **National First Prize**, the 15th National University Students Intelligent Car Race
 
-# 📡 Useful Resources
+# 📡 Useful Resource
 - [AI Conference Deadlines](https://aideadlin.es/?sub=NLP,ML): Countdowns to top NLP/ML/AI conference deadlines.
 - [Global Equality for PhDs](https://github.com/zhijing-jin/nlp-phd-global-equality): Resources to promote global equality for PhDs in NLP/AI.
 
