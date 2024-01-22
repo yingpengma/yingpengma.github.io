@@ -6,11 +6,11 @@ main:
   - title: "News"
     url: "/#-news"
     
-  - title: "Repositories"
-    url: "/#-repositories"
+  - title: "Repository"
+    url: "/#-repository"
     
-  - title: "Publications"
-    url: "/#-repositories"
+  - title: "Publication"
+    url: "/#-repository"
 
 
   - title: "Education"
@@ -20,11 +20,11 @@ main:
     url: "/#-experience"
 
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Honor and Award"
+    url: "/#-honor-and-award"
 
-  - title: "Useful Resources"
-    url: "/#-useful-resources"
+  - title: "Useful Resource"
+    url: "/#-useful-resource"
 
-  - #title: "Invited Talks"
-    #url: "/#-invited-talks"
+  - #title: "Invited Talk"
+    #url: "/#-invited-talk"
