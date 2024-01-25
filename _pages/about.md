@@ -73,7 +73,7 @@ Author\*, **Yingpeng Ma\***, Author
 - *2022.08 - 2023.01*, **Intern**, Westlake NLP Group @ Westlake University
 - *2021.07 - 2022.07*, **Intern**, Perception Vision Group @ Northwestern Polytechnical University
 
-
+<link rel="stylesheet" href={{ "../assets/css/timeline.css" | prepend: site.baseurl }}>
 <ul class="timeline">
     {% for exp in site.data.experience.experiences %}
     <li>
@@ -90,7 +90,7 @@ Author\*, **Yingpeng Ma\***, Author
       </div>
     </li>
     {% endfor %}
-  </ul>
+</ul>
 
 
 
