@@ -69,7 +69,7 @@ Author\*, **Yingpeng Ma\***, Author
 - *2022.08 - 2023.01*, **Intern**, Westlake NLP Group @ Westlake University
 - *2021.07 - 2022.07*, **Intern**, Perception Vision Group @ Northwestern Polytechnical University
 
-<link href='../assets/css/timeline.css' rel='stylesheet' type='text/css'>
+
 <ul class="timeline">
 	<li>
 		<div class="direction-r">
@@ -101,6 +101,8 @@ Author\*, **Yingpeng Ma\***, Author
 		</div>
 	</li>
 </ul>
+
+
 
 # 🏆 Honor and Award
 - *2022*, **Excellent Graduation Thesis Award** (top 2%), Northwestern Polytechnical University
