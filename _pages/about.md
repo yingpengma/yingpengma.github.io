@@ -69,6 +69,39 @@ Author\*, **Yingpeng Ma\***, Author
 - *2022.08 - 2023.01*, **Intern**, Westlake NLP Group @ Westlake University
 - *2021.07 - 2022.07*, **Intern**, Perception Vision Group @ Northwestern Polytechnical University
 
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<ul class="timeline">
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Westlake NLP Group @ Westlake University</span>
+				<span class="time-wrapper"><span class="time">2023.02 - present</span></span>
+			</div>
+			<div class="desc">Research Assistant</div>
+		</div>
+	</li>
+  
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Westlake NLP Group @ Westlake University</span>
+				<span class="time-wrapper"><span class="time">2022.08 - 2023.01</span></span>
+			</div>
+			<div class="desc">Intern</div>
+		</div>
+	</li>
+
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Perception Vision Group @ Northwestern Polytechnical University</span>
+				<span class="time-wrapper"><span class="time">2021.07 - 2022.07</span></span>
+			</div>
+			<div class="desc">Intern</div>
+		</div>
+	</li>
+</ul>
+
 # 🏆 Honor and Award
 - *2022*, **Excellent Graduation Thesis Award** (top 2%), Northwestern Polytechnical University
 - *2021*, **Excellent Student Award**, Northwestern Polytechnical University
