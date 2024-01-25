@@ -94,10 +94,10 @@ Author\*, **Yingpeng Ma\***, Author
 	<li>
 		<div class="direction-r">
 			<div class="flag-wrapper">
-				<span class="flag">Perception Vision Group @ Northwestern Polytechnical University</span>
+				<span class="flag">Northwestern Polytechnical University</span>
 				<span class="time-wrapper"><span class="time">2021.07 - 2022.07</span></span>
 			</div>
-			<div class="desc">Intern</div>
+			<div class="desc"> **Intern** <br/> Perception Vision Group <br/> Prof. Chunwei Tian <br/></div>
 		</div>
 	</li>
 </ul>
