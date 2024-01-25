@@ -15,10 +15,6 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<head>
-  <link rel="stylesheet" href={{ "../assets/css/timeline.css" | prepend: site.baseurl }}>
-</head>
-
 <span class='anchor' id='about-me'></span>
 
 <h1 style="font-family: 'Trajan', serif; font-size: 22px; text-decoration: none; border-bottom: none;">HARMONIZE WITH LLMS&nbsp; IGNITE THE NLP RENAISSANCE</h1>
@@ -73,7 +69,7 @@ Author\*, **Yingpeng Ma\***, Author
 - *2022.08 - 2023.01*, **Intern**, Westlake NLP Group @ Westlake University
 - *2021.07 - 2022.07*, **Intern**, Perception Vision Group @ Northwestern Polytechnical University
 
-<link rel="stylesheet" href={{ "../assets/css/timeline.css" | prepend: site.baseurl }}>
+<link href="../assets/css/timeline.css" rel='stylesheet' type='text/css'>
 <ul class="timeline">
     {% for exp in site.data.experience.experiences %}
     <li>
