@@ -63,11 +63,16 @@ Author\*, **Yingpeng Ma\***, Author
 # 🎓 Education
 - *2019.09 - 2022.06*, **Bachelor**'s degree, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
 
-
 # 💻 Experience
 - *2023.02 - present*, **Research Assistant**, Westlake NLP Group @ Westlake University
 - *2022.08 - 2023.01*, **Intern**, Westlake NLP Group @ Westlake University
 - *2021.07 - 2022.07*, **Intern**, Perception Vision Group @ Northwestern Polytechnical University
+
+# 🏆 Honor and Award
+- *2022*, **Excellent Graduation Thesis Award** (top 2%), Northwestern Polytechnical University
+- *2021*, **Excellent Student Award**, Northwestern Polytechnical University
+- *2021*, **Second-Class Scholarship** (top 15%), Northwestern Polytechnical University
+- *2020*, **National First Prize**, the 15th National University Students Intelligent Car Race
 
 <link href="../assets/css/timeline.css" rel='stylesheet' type='text/css'>
 <div class="timeline">
@@ -87,14 +92,6 @@ Author\*, **Yingpeng Ma\***, Author
     </li>
     {% endfor %}
 </div>
-
-
-
-# 🏆 Honor and Award
-- *2022*, **Excellent Graduation Thesis Award** (top 2%), Northwestern Polytechnical University
-- *2021*, **Excellent Student Award**, Northwestern Polytechnical University
-- *2021*, **Second-Class Scholarship** (top 15%), Northwestern Polytechnical University
-- *2020*, **National First Prize**, the 15th National University Students Intelligent Car Race
 
 # 📡 Useful Resource
 - [AI Conference Deadlines](https://aideadlin.es/?sub=NLP,ML): Countdowns to top NLP/ML/AI conference deadlines.
