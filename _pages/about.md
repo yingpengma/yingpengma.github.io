@@ -15,6 +15,10 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<head>
+  <link rel="stylesheet" href={{ "../assets/css/timeline.css" | prepend: site.baseurl }}>
+</head>
+
 <span class='anchor' id='about-me'></span>
 
 <h1 style="font-family: 'Trajan', serif; font-size: 22px; text-decoration: none; border-bottom: none;">HARMONIZE WITH LLMS&nbsp; IGNITE THE NLP RENAISSANCE</h1>
@@ -71,36 +75,22 @@ Author\*, **Yingpeng Ma\***, Author
 
 
 <ul class="timeline">
-	<li>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="flag">Westlake NLP Group @ Westlake University</span>
-				<span class="time-wrapper"><span class="time">2023.02 - present</span></span>
-			</div>
-			<div class="desc">Research Assistant</div>
-		</div>
-	</li>
-  
-	<li>
-		<div class="direction-l">
-			<div class="flag-wrapper">
-				<span class="flag">Westlake NLP Group @ Westlake University</span>
-				<span class="time-wrapper"><span class="time">2022.08 - 2023.01</span></span>
-			</div>
-			<div class="desc">Intern</div>
-		</div>
-	</li>
-
-	<li>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="flag">Northwestern Polytechnical University</span>
-				<span class="time-wrapper"><span class="time">2021.07 - 2022.07</span></span>
-			</div>
-			<div class="desc"> **Intern** <br/> Perception Vision Group <br/> Prof. Chunwei Tian <br/></div>
-		</div>
-	</li>
-</ul>
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 
 
 
