@@ -70,7 +70,7 @@ Author\*, **Yingpeng Ma\***, Author
 - *2021.07 - 2022.07*, **Intern**, Perception Vision Group @ Northwestern Polytechnical University
 
 <link href="../assets/css/timeline.css" rel='stylesheet' type='text/css'>
-<ul class="timeline">
+<div class="timeline">
     {% for exp in site.data.experience.experiences %}
     <li>
       {% if exp.category == "work" %}
@@ -86,7 +86,7 @@ Author\*, **Yingpeng Ma\***, Author
       </div>
     </li>
     {% endfor %}
-</ul>
+</div>
 
 
 
