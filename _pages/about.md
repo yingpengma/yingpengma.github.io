@@ -31,7 +31,7 @@ My research interests lie in the field of **Natural Language Processing**, with 
 - *2022.06*: 🎉🎉 I completed my undergraduate studies within **3** years and was awarded the Excellent Graduation Thesis Award under the guidance of Prof. Chunwei Tian.
 
 # 🌱 Repository
-[ **[Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation)** ![](https://img.shields.io/github/stars/yingpengma/Awesome-Story-Generation?style=social&label=Code+Stars) | **[FinTrust](https://github.com/yingpengma/FinTrust)** ![](https://img.shields.io/github/stars/yingpengma/FinTrust?style=social&label=Code+Stars) ]
+[ **[Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation)** ![](https://img.shields.io/github/stars/yingpengma/Awesome-Story-Generation?style=social&label=Stars) | **[FinTrust](https://github.com/yingpengma/FinTrust)** ![](https://img.shields.io/github/stars/yingpengma/FinTrust?style=social&label=Stars) ]
 
 <h1 style="margin-bottom: -10px;">📝 Publication</h1>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/FinTrust.png' height="100%" width="100%"></div></div>
