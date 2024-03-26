@@ -76,6 +76,10 @@ Author\*, **Yingpeng Ma\***, Author
 - *2021*, **Second-Class Scholarship** (top 15%), Northwestern Polytechnical University
 - *2020*, **National First Prize**, the 15th National University Students Intelligent Car Race
 
+# 🏆 Service
+- **Conference Reviewer** : ACL-24, IJCAI-24
+- **Journal Reviewer** : TALLIP
+
 # 📡 Useful Resource
 - [AI Conference Deadlines](https://aideadlin.es/?sub=NLP,ML): Countdowns to top NLP/ML/AI conference deadlines.
 - [Global Equality for PhDs](https://github.com/zhijing-jin/nlp-phd-global-equality): Resources to promote global equality for PhDs in NLP/AI.
