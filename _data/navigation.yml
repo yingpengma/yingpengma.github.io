@@ -23,6 +23,9 @@ main:
   - title: "Honor and Award"
     url: "/#-honor-and-award"
 
+  - title: "Service"
+    url: "/#-service"
+
   - title: "Useful Resource"
     url: "/#-useful-resource"
 
