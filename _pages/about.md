@@ -76,7 +76,7 @@ Author\*, **Yingpeng Ma\***, Author
 - *2021*, **Second-Class Scholarship** (top 15%), Northwestern Polytechnical University
 - *2020*, **National First Prize**, the 15th National University Students Intelligent Car Race
 
-# 🏆 Service
+# 📨 Service
 - **Conference Reviewer** : ACL-24, IJCAI-24
 - **Journal Reviewer** : TALLIP
 
