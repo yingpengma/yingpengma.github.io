@@ -21,16 +21,16 @@ redirect_from:
 
 Hello, I am **Yingpeng Ma** [jīŋpéŋ mǎ] (马英鹏). I am a Research Assistant at [Westlake NLP Group (西湖大学自然语言处理实验室)](https://westlake-nlp.github.io/)  <img src='./images/westlakenlp_logo.jpg' style='width: 6em;'> , supervised by [Prof. Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr. Linyi Yang (杨林易)](https://yanglinyi.github.io/). 
 
-Before this, I obtained my B.E. degree at **Northwestern Polytechnical University** (NWPU, 西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof. Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
+Before this, I earned my B.E. degree from **Northwestern Polytechnical University** (NWPU, 西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof. Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
 
-My research interests lie in the field of **Natural Language Processing**, with a particular focus on **Large Language Model** related research. 
-Here is my [cv](https://yingpengma.github.io/_pages/CV-240418.pdf).
+My research interests lie in **Natural Language Processing**, with a particular focus on **Large Language Models**. 
+Here is my [**CV**](https://yingpengma.github.io/_pages/CV-240418.pdf).
 
 # ⚡ News
-- *2024.04*: 🌟 My GitHub repository [Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation) has already garnered **150** stars. I created and have been maintaining this project purely out of personal interest. It is incredibly encouraging to see so many others also interested in this topic.
+- *2024.06*: 🌟 My GitHub repository [Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation) has already garnered **200** stars. It is incredibly encouraging to see so many others also interested in this topic.
 - *2023.05*: 🔥 🔥 One co-first author long paper has been accepted by **ACL 2023** main conference. This is my first paper, I am thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
-- *2022.06*: 🎉🎉 I completed my undergraduate studies within **3** years and was awarded the Excellent Graduation Thesis Award under the guidance of Prof. Chunwei Tian.
+- *2022.06*: 🎉🎉 I completed my undergraduate studies within **three** years and was awarded the Excellent Graduation Thesis Award under the guidance of Prof. Chunwei Tian.
 
 # 🌱 Repository
 [ **[Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation)** ![](https://img.shields.io/github/stars/yingpengma/Awesome-Story-Generation?style=social&label=Stars) | **[FinTrust](https://github.com/yingpengma/FinTrust)** ![](https://img.shields.io/github/stars/yingpengma/FinTrust?style=social&label=Stars) ]
@@ -79,7 +79,7 @@ Author\*, **Yingpeng Ma\***, Author
 - *2020*, **National First Prize**, the 15th National University Students Intelligent Car Race
 
 # 📨 Service
-- **Conference Reviewer** : ACL-24, IJCAI-24
+- **Conference Reviewer** : ARR-24, IJCAI-24
 - **Journal Reviewer** : TALLIP
 
 # 📡 Useful Resource
