@@ -50,7 +50,9 @@ Here is my [**CV**](https://yingpengma.github.io/_pages/CV-240418.pdf).
   </div>
   <div class='paper-box-text' markdown="1">
   **Measuring Consistency in Text-based Financial Forecasting Models** [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/fad03a833345b38323d97ee4818d341d6ba4fbdf?fields=citationCount)]()
+    
   Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
+  
   [[**Paper**](https://aclanthology.org/2023.acl-long.769/)] [[**Code**](https://github.com/yingpengma/FinTrust)]
   </div>
 </div>
