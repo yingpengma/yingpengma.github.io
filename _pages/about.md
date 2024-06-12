@@ -26,48 +26,46 @@ Before this, I earned my B.E. degree from **Northwestern Polytechnical Universit
 My research interests lie in **Natural Language Processing**, with a particular focus on **Large Language Models**. 
 Here is my [**CV**](https://yingpengma.github.io/_pages/CV-240418.pdf).
 
-# ⚡ News
+# 🗞 News
 - *2024.06*: 🌟 My GitHub repository [Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation) has already garnered **200** stars. It is incredibly encouraging to see so many others also interested in this topic.
-- *2023.05*: 🔥 🔥 One co-first author long paper has been accepted by **ACL 2023** main conference. This is my first paper, I am thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
+- *2023.05*: 🔥🔥 One co-first author long paper has been accepted by **ACL 2023** main conference. This is my first paper, I am thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
 - *2022.08*: 🔥 I am excited to join the Westlake NLP Group, embarking on a new journey in the field of NLP!
 - *2022.06*: 🎉🎉 I completed my undergraduate studies within **three** years and was awarded the Excellent Graduation Thesis Award under the guidance of Prof. Chunwei Tian.
 
 # 🌱 Repository
 [ **[Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation)** ![](https://img.shields.io/github/stars/yingpengma/Awesome-Story-Generation?style=social&label=Stars) | **[FinTrust](https://github.com/yingpengma/FinTrust)** ![](https://img.shields.io/github/stars/yingpengma/FinTrust?style=social&label=Stars) ]
 
+<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2hwX2I3UmhnYWhlYlEwNThYOGZOUDhsdDNtWnE4ZTJ0YjNqTkJWZg==#yingpengma/Awesome-Story-Generation&yingpengma/FinTrust&Date" frameBorder="0"></iframe>
+
+<!--
 <h1 style="margin-bottom: -10px;">📝 Publication</h1>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/FinTrust.png' height="100%" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**Measuring Consistency in Text-based Financial Forecasting Models** [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/fad03a833345b38323d97ee4818d341d6ba4fbdf?fields=citationCount)]()
-  
-Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
-  
-[[**Paper**](https://aclanthology.org/2023.acl-long.769/)] [[**Code**](https://github.com/yingpengma/FinTrust)]
-</div>
+ -->
+
+# 📘 Publication
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ACL 2023</div>
+      <img src='images/FinTrust.png' height="100%" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+    **Measuring Consistency in Text-based Financial Forecasting Models** [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/fad03a833345b38323d97ee4818d341d6ba4fbdf?fields=citationCount)]()
+
+    Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
+
+    [[**Paper**](https://aclanthology.org/2023.acl-long.769/)] [[**Code**](https://github.com/yingpengma/FinTrust)]
+  </div>
 </div>
 
 ___* denotes equal contribution___
 
-<!--
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">No paper</div><img src='images/500x300.png' height="100%" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Under Review**
-
-Author\*, **Yingpeng Ma\***, Author
-
-<u>Paper</u> [Code]()
-</div>
-</div>
-
- -->
 
 # 🎓 Education
 - *2019.09 - 2022.06*, **Bachelor**'s degree, School of Software, Northwestern Polytechnical University (NWPU, 西北工业大学)
 
-# 💻 Experience
+# 👔 Experience
 - *2023.02 - present*, **Research Assistant**, Westlake NLP Group @ Westlake University
 - *2022.08 - 2023.01*, **Intern**, Westlake NLP Group @ Westlake University
 - *2021.07 - 2022.07*, **Intern**, Perception Vision Group @ Northwestern Polytechnical University
