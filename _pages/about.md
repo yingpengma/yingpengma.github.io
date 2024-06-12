@@ -41,7 +41,7 @@ Here is my [**CV**](https://yingpengma.github.io/_pages/CV-240418.pdf).
 
 # 📘 Publication
 
-<div class='paper-box'>
+<div class='paper-box' style='margin-top: 0;'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">ACL 2023</div>
