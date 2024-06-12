@@ -35,8 +35,6 @@ Here is my [**CV**](https://yingpengma.github.io/_pages/CV-240418.pdf).
 # 🌱 Repository
 [ **[Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation)** ![](https://img.shields.io/github/stars/yingpengma/Awesome-Story-Generation?style=social&label=Stars) | **[FinTrust](https://github.com/yingpengma/FinTrust)** ![](https://img.shields.io/github/stars/yingpengma/FinTrust?style=social&label=Stars) ]
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2hwX2I3UmhnYWhlYlEwNThYOGZOUDhsdDNtWnE4ZTJ0YjNqTkJWZg==#yingpengma/Awesome-Story-Generation&yingpengma/FinTrust&Date" frameBorder="0"></iframe>
-
 <!--
 <h1 style="margin-bottom: -10px;">📝 Publication</h1>
  -->
@@ -51,11 +49,9 @@ Here is my [**CV**](https://yingpengma.github.io/_pages/CV-240418.pdf).
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
-    **Measuring Consistency in Text-based Financial Forecasting Models** [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/fad03a833345b38323d97ee4818d341d6ba4fbdf?fields=citationCount)]()
-
-    Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
-
-    [[**Paper**](https://aclanthology.org/2023.acl-long.769/)] [[**Code**](https://github.com/yingpengma/FinTrust)]
+  **Measuring Consistency in Text-based Financial Forecasting Models** [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/fad03a833345b38323d97ee4818d341d6ba4fbdf?fields=citationCount)]()
+  Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
+  [[**Paper**](https://aclanthology.org/2023.acl-long.769/)] [[**Code**](https://github.com/yingpengma/FinTrust)]
   </div>
 </div>
 
