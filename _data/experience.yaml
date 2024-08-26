@@ -1,7 +1,13 @@
 experiences:
 
+- place: "Admission"
+  time: "2024.08"
+  title: "University of Macau <br/> Master"
+  subtitle: "NLP2CT Lab <br/> Supervised by Prof. Fai Wong"
+  category: "school"
+
 - place: "Research Assistant"
-  time: "2023.02 - present"
+  time: "2023.02 - 2024.07"
   title: "Westlake University"
   subtitle: "Westlake NLP Group <br/> Supervised by Prof. Yue Zhang"
   category: "school"
