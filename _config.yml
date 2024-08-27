@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yingpeng MA"
   avatar           : "images/me.jpg"
-  bio              : "<img src='./images/UM-FST-logo.png' style='width: 8em;'>"
+  bio              : "<img src='./images/UM-logo.png' style='width: 8em;'>"
   location         : "Taipa, Macau"
   employer         :
   pubmed           : 
