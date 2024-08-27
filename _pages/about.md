@@ -19,9 +19,7 @@ redirect_from:
 
 <h1 style="font-family: 'Trajan', serif; font-size: 22px; text-decoration: none; border-bottom: none;">HARMONIZE WITH LLMS&nbsp; IGNITE THE NLP RENAISSANCE</h1>
 
-Hello, I am **Yingpeng Ma** (马英鹏). I am currently an M.S. student in Computer Science at [NLP2CT Lab](http://nlp2ct.cis.umac.mo/) <img src='./images/nlp2ct.png' style='width: 6em;'>, University of Macau, advised by [Prof. Derek F. Wong](https://www.fst.um.edu.mo/personal/derek-wong/). 
-
-Prior to this, I was a Research Assistant at Westlake NLP Group <img src='./images/westlakenlp_logo.jpg' style='width: 6em;'>, supervised by [Prof. Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr. Linyi Yang (杨林易)](https://yanglinyi.github.io/). I earned my B.E. degree from **Northwestern Polytechnical University** (NWPU, 西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof. Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
+Hello, I am **Yingpeng Ma** (马英鹏). I am currently an M.S. student in Computer Science at [NLP2CT Lab](http://nlp2ct.cis.umac.mo/) <img src='./images/nlp2ct.png' style='width: 2em;'>, University of Macau, advised by [Prof. Derek F. Wong](https://www.fst.um.edu.mo/personal/derek-wong/). Prior to this, I was a Research Assistant at Westlake NLP Group <img src='./images/westlake_logo.png' style='width: 6em;'>, supervised by [Prof. Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr. Linyi Yang (杨林易)](https://yanglinyi.github.io/). I earned my B.E. degree from **Northwestern Polytechnical University** (NWPU, 西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 5em;'>, supervised by [Prof. Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
 
 My research interests lie in **Natural Language Processing** and **Large Language Models**, with a particular focus on **Story Generation**. 
 Here is my [**CV**](https://yingpengma.github.io/_pages/CV-240418.pdf).
