@@ -1,9 +1,14 @@
 experiences:
 
+- place: "Master Student"
+  time: "2024.08 - present"
+  title: "University of Macau"
+  subtitle: "NLP2CT Lab <br/> Supervised by Prof. Derek F. Wong"
+  category: "school"
+
 - place: "Admission"
   time: "2024.08"
   title: "University of Macau <br/> Master"
-  subtitle: "NLP2CT Lab <br/> Supervised by Prof. Fai Wong"
   category: "school"
 
 - place: "Research Assistant"
