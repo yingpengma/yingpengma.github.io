@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yingpeng MA (马英鹏)"
-description              : "M.S. Student @ NLP2CT Lab"
+description              : "M.S. @ NLP2CT Lab"
 repository               : "yingpengma/yingpengma.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yingpeng MA"
   avatar           : "images/me.jpg"
-  bio              : "<img src='./images/UM_logo.webp' style='width: 8em;'>"
-  location         : "Macao, China"
+  bio              : "<img src='./images/UM-FST-logo.png' style='width: 8em;'>"
+  location         : "Taipa, Macau"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Qrghm1QAAAAJ"
