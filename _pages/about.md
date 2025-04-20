@@ -17,20 +17,21 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<h1 style="font-family: 'Trajan', serif; font-size: 22px; text-decoration: none; border-bottom: none;">HARMONIZE WITH LLMS&nbsp; IGNITE THE NLP RENAISSANCE</h1>
+<h1 style="font-family: 'Trajan', serif; font-size: 22px; text-decoration: none; border-bottom: none;">The limits of language mean the limits of world.</h1>
 
-Hello, I am **Yingpeng Ma** (马英鹏). I am currently an M.S. student in Computer Science at [NLP2CT Lab](http://nlp2ct.cis.umac.mo/) <img src='./images/nlp2ct.png' style='width: 2em;'>, University of Macau, advised by [Prof. Derek F. Wong](https://www.fst.um.edu.mo/personal/derek-wong/). Prior to this, I was a Research Assistant at Westlake NLP Lab <img src='./images/westlake_logo.png' style='width: 4em;'>, supervised by [Prof. Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr. Linyi Yang (杨林易)](https://yanglinyi.github.io/). I earned my B.E. degree from **Northwestern Polytechnical University** (NWPU, 西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 6em;'>, supervised by [Prof. Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
+Hello, I'm **Yingpeng Ma** (马英鹏). I'm currently an M.S. student in Computer Science at the [NLP2CT Lab](http://nlp2ct.cis.umac.mo/) <img src='./images/nlp2ct.png' style='width: 2em;'>, University of Macau, advised by [Prof. Derek F. Wong](https://www.fst.um.edu.mo/personal/derek-wong/). Previously, I was a Research Assistant at the Westlake NLP Lab <img src='./images/westlake_logo.png' style='width: 4em;'>, supervised by [Prof. Yue Zhang (张岳)](https://frcchang.github.io/) and [Dr. Linyi Yang (杨林易)](https://yanglinyi.github.io/). I earned my B.E. degree from **Northwestern Polytechnical University** (NWPU, 西北工业大学)  <img src='./images/nwpu_logo.png' style='width: 6em;'>, supervised by [Prof. Chunwei Tian (田春伟)](https://hellloxiaotian.github.io/).
 
 My research interests lie in **Natural Language Processing** and **Large Language Models**, with a particular focus on **Story Generation**. 
 
 Here is my [**CV**](https://yingpengma.github.io/_pages/CV-240909.pdf).
 
 # 🗞 News
-- *2024.08*: 🔥🔥 Macau is awesome✨! I'm delighted to have enrolled in the M.S. in Computer Science programme at the **University of Macau**.
-- *2024.06*: 🌟 My GitHub repository [Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation) has already garnered **200** stars. It is incredibly encouraging to see so many others also interested in this topic.
-- *2023.05*: 🔥 One co-first author long paper has been accepted by **ACL 2023** main conference. This is my first paper, I am thrilled yet humbled by its acceptance, looking forward to contributing more impactful work in the future! 
-- *2022.08*: I am excited to learn at the Westlake NLP Lab, embarking on a new journey in the field of NLP!
-- *2022.06*: 🎉🎉 I completed my undergraduate studies within **three** years and was awarded the Excellent Graduation Thesis Award under the guidance of Prof. Chunwei Tian.
+- *Apr 2025*: 🌟 My GitHub repository [**Awesome-Story-Generation**](https://github.com/yingpengma/Awesome-Story-Generation) has reached **400** stars! It's encouraging to see community interest in this topic.
+- *Jan 2025*: 🔥🔥 One authored paper was accepted to the **COLING 2025** main conference.
+- *Aug 2024*: 🔥 Excited to start my M.S. in Computer Science at the **University of Macau**!
+- *May 2023*: 🎉🎉 One co-first authored paper was accepted to the **ACL 2023** main conference. Thrilled that my first paper was accepted and looking forward to future contributions!
+- *Aug 2022*: Excited to learn at the Westlake NLP Lab, beginning my journey in NLP!
+- *Jun 2022*: 🎉 Graduated with my B.E. degree from NWPU in **Three** years and received the Excellent Graduation Thesis Award (supervised by Prof. Chunwei Tian).
 
 # 🌱 Repository
 [ **[Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation)** ![](https://img.shields.io/github/stars/yingpengma/Awesome-Story-Generation?style=social&label=Stars) | **[FinTrust](https://github.com/yingpengma/FinTrust)** ![](https://img.shields.io/github/stars/yingpengma/FinTrust?style=social&label=Stars) ]
@@ -44,12 +45,28 @@ Here is my [**CV**](https://yingpengma.github.io/_pages/CV-240909.pdf).
 <div class='paper-box' style='margin-top: -20px;'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ACL 2023</div>
+      <div class="badge">COLING 2025 Main</div>
+      <img src='images/FocusNeuron.png' height="100%" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+  **Let’s Focus on Neuron: Neuron-Level Supervised Fine-tuning for Large Language Model**
+
+  Haoyun Xu\*, Runzhe Zhan\*, **Yingpeng Ma**, Derek F Wong, Lidia S Chao
+  
+  [[**Paper**](https://aclanthology.org/2025.coling-main.630/)]
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ACL 2023 Main</div>
       <img src='images/FinTrust.png' height="100%" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
-  **Measuring Consistency in Text-based Financial Forecasting Models** [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/fad03a833345b38323d97ee4818d341d6ba4fbdf?fields=citationCount)]()
+  **Measuring Consistency in Text-based Financial Forecasting Models**
     
   Linyi Yang\*, **Yingpeng Ma\***, Yue Zhang
   
