@@ -1,0 +1,65 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "publications",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "Qrghm1QAAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Yingpeng Ma (马英鹏)",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Qrghm1QAAAAJ&citpid=7",
+  "affiliation": "Master Student, University of Macau",
+  "interests": [
+    "Natural Language Generation",
+    "Story Generation",
+    "Large Language Model"
+  ],
+  "email_domain": "@um.edu.mo",
+  "homepage": "http://yingpengma.github.io/",
+  "citedby": 10,
+  "publications": {
+    "Qrghm1QAAAAJ:qUcmZB5y_30C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Let’s Focus on Neuron: Neuron-Level Supervised Fine-tuning for Large Language Model",
+        "pub_year": "2025"
+      },
+      "filled": false,
+      "author_pub_id": "Qrghm1QAAAAJ:qUcmZB5y_30C",
+      "num_citations": 5,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16322157558864708331",
+      "cites_id": [
+        "16322157558864708331"
+      ]
+    },
+    "Qrghm1QAAAAJ:ZeXyd9-uunAC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Measuring Consistency in Text-based Financial Forecasting Models",
+        "pub_year": "2023"
+      },
+      "filled": false,
+      "author_pub_id": "Qrghm1QAAAAJ:ZeXyd9-uunAC",
+      "num_citations": 5,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9964728724958181496",
+      "cites_id": [
+        "9964728724958181496"
+      ]
+    }
+  },
+  "citedby5y": 10,
+  "hindex": 2,
+  "hindex5y": 2,
+  "i10index": 0,
+  "i10index5y": 0,
+  "cites_per_year": {
+    "2023": 1,
+    "2024": 5,
+    "2025": 4
+  },
+  "updated": "2025-07-08 23:11:20.320933"
+}
