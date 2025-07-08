@@ -3,27 +3,39 @@ name: Get Citation Data
 on: 
  page_build: 
  schedule:
-  - cron:  '0 8 * * *'
+  - cron:  '0 */4 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
     - name: Install Reqs
       run: |
+        sudo apt-get update
         sudo apt-get install python3-setuptools
     - name: Run
       run: |
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
-        python3 main.py
+        timeout 4m python3 main.py
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        if [ -f "gs_data.json" ]; then
         git add *.json
-        git commit -m "Updated Citation Data"
+          git commit -m "Updated Citation Data - $(date)"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
+          echo "✓ 成功更新数据"
+        else
+          echo "✗ 没有生成数据文件"
+          exit 1
+        fi
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
