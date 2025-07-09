@@ -104,6 +104,17 @@ h1:before, .anchor:before {
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    background-color: #4682B4;
     font-size: .8em;
+}
+
+/* 用颜色代替加粗来强调文字 */
+strong, b {
+    color: #4682B4;
+    font-weight: normal; /* 不加粗，用颜色强调 */
+}
+
+/* 通用加粗样式 */
+.bold, [style*="font-weight: bold"] {
+    color: #4682B4;
 }

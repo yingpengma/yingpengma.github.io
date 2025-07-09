@@ -2,19 +2,14 @@ experiences:
 
 - place: "Master Student"
   time: "2024.08 - present"
-  title: "University of Macau"
-  subtitle: "NLP2CT Lab <br/> Supervised by Prof. Derek F. Wong"
-  category: "school"
-
-- place: "Admission"
-  time: "2024.08"
-  title: "University of Macau <br/> Master"
+  title: "University of Macau, Computer Science"
+  subtitle: "NLP^2CT Lab <br/> Supervised by Prof. Derek F. Wong"
   category: "school"
 
 - place: "Research Assistant"
   time: "2023.02 - 2024.07"
   title: "Westlake University"
-  subtitle: "Westlake NLP Group <br/> Supervised by Prof. Yue Zhang"
+  subtitle: "Westlake NLP Lab <br/> Supervised by Prof. Yue Zhang"
   category: "school"
 
 - place: "First Paper"
@@ -26,19 +21,19 @@ experiences:
 - place: "Intern"
   time: "2022.08 - 2023.01"
   title: "Westlake University"
-  subtitle: "Westlake NLP Group <br/> Supervised by Prof. Yue Zhang and Dr. Linyi Yang"
+  subtitle: "Westlake NLP Lab <br/> Supervised by Prof. Yue Zhang and Prof. Linyi Yang"
   category: "school"
 
 - place: "Early Graduation"
   time: "2022.06"
-  title: "Northwestern Polytechnical University <br/> B.E. degree"
-  subtitle: "Software Engineering"
+  title: "Northwestern Polytechnical University, <br/>  Software Engineering"
+  subtitle: "B.E. degree"
   category: "school"
 
 - place: "Excellent Graduation Thesis"
   time: "2022"
   title: "Northwestern Polytechnical University"
-  subtitle: "(top 2%)"
+  subtitle: "top 2% (3/217)"
   category: "work"
 
 - place: "Intern"
@@ -50,7 +45,7 @@ experiences:
 - place: "Second-Class Scholarship"
   time: "2021"
   title: "Northwestern Polytechnical University"
-  subtitle: "(top 15%)"
+  subtitle: "top 15%"
   category: "work"
   
 - place: "National First Prize"
@@ -60,5 +55,6 @@ experiences:
 
 - place: "Admission"
   time: "2019.09"
-  title: "Northwestern Polytechnical University <br/> Undergraduate"
+  title: "Northwestern Polytechnical University"
+  subtitle: "Undergraduate"
   category: "school"
