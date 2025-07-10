@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yingpeng MA (马英鹏)"
-description              : "M.S. @ NLP2CT Lab"
+description              : "M.S. @ NLP^2CT Lab"
 repository               : "yingpengma/yingpengma.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,14 +22,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Yingpeng MA"
-  avatar           : "images/me.jpg"
+  avatar           : "images/profile.jpg"
   bio              : "<img src='./images/UM-logo.png' style='width: 8em;'>"
-  location         : "Macau SAR"
-  employer         :
+  location         : "Macau SAR, China"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Qrghm1QAAAAJ"
   email            : "mayingpeng33 [AT] gmail [DOT] com "
-  researchgate     : "https://www.researchgate.net/profile/Yingpeng-Ma-2"
+  researchgate     : # "https://www.researchgate.net/profile/Yingpeng-Ma-2"
   uri              :
   bitbucket        :
   codepen          :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0009-0001-1141-663X"
+  orcid            : # "https://orcid.org/0009-0001-1141-663X"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -66,7 +66,6 @@ include:
   - files
 exclude:
   - docs
-  - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

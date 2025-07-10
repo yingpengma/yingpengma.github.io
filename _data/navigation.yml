@@ -12,13 +12,11 @@ main:
   - title: "Publication"
     url: "/#-publication"
 
-
   - title: "Education"
     url: "/#-education"
 
   - title: "Experience"
     url: "/#-experience"
-
 
   - title: "Honor and Award"
     url: "/#-honor-and-award"
