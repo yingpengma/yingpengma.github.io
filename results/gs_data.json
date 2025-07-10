@@ -1,0 +1,37 @@
+{
+  "name": "Yingpeng Ma (马英鹏)",
+  "citedby": 10,
+  "publications": {
+    "Qrghm1QAAAAJ:qUcmZB5y_30C": {
+      "author_pub_id": "Qrghm1QAAAAJ:qUcmZB5y_30C",
+      "title": "Let’s Focus on Neuron: Neuron-Level Supervised Fine-tuning for Large Language Model",
+      "num_citations": 5,
+      "year": "2025",
+      "authors": "H Xu*, R Zhan*, Y Ma, DF Wong, LS Chao",
+      "publication": "COLING 2025, 2025"
+    },
+    "Qrghm1QAAAAJ:ZeXyd9-uunAC": {
+      "author_pub_id": "Qrghm1QAAAAJ:ZeXyd9-uunAC",
+      "title": "Measuring Consistency in Text-based Financial Forecasting Models",
+      "num_citations": 5,
+      "year": "2023",
+      "authors": "L Yang*, Y Ma*(Equal Contribution), Y Zhang",
+      "publication": "ACL 2023, 2023"
+    }
+  },
+  "updated": "2025-07-10 12:59:40.676527",
+  "affiliations": "Master Student, University of Macau",
+  "email": "Verified email at um.edu.mo",
+  "interests": [
+    {
+      "title": "Natural Language Generation",
+      "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:natural_language_generation",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Anatural_language_generation"
+    },
+    {
+      "title": "Large Language Model",
+      "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:large_language_model",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Alarge_language_model"
+    }
+  ]
+}
