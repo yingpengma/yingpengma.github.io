@@ -1,41 +1,53 @@
-name: Get Citation Data
+name: Update Scholar Stats
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 */4 * * *'
+on:
+  schedule:
+    - cron: '0 0 */2 * *'  # 每2天运行一次
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
-  build:
+  update-scholar-stats:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 5  # 延长到5分钟
+    
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python
+    - name: Checkout main branch
+      uses: actions/checkout@v4
+      with:
+        ref: main
+        path: main
+    
+    - name: Checkout google-scholar-stats branch  
+      uses: actions/checkout@v4
+      with:
+        ref: google-scholar-stats
+        path: google-scholar-stats
+    
+    - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-    - name: Install Reqs
+    
+    - name: Install dependencies
       run: |
-        sudo apt-get update
-        sudo apt-get install python3-setuptools
-    - name: Run
+        cd main/google_scholar_crawler
+        pip install -r requirements.txt
+    
+    - name: Update scholar data
+      timeout-minutes: 3  # 脚本执行3分钟超时
+      env:
+        SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
       run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        timeout 4m python3 main.py
-        cd ./results
-        git init
+        cd main/google_scholar_crawler
+        python main.py
+        # 复制结果到google-scholar-stats分支
+        cp -r results/* ../../google-scholar-stats/results/
+    
+    - name: Commit and push results
+      run: |
+        cd google-scholar-stats
         git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        if [ -f "gs_data.json" ]; then
-        git add *.json
-          git commit -m "Updated Citation Data - $(date)"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-          echo "✓ 成功更新数据"
-        else
-          echo "✗ 没有生成数据文件"
-          exit 1
-        fi
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        git add results/*.json
+        git commit -m "Update Scholar Stats $(date '+%Y-%m-%d')" || exit 0
+        git push
