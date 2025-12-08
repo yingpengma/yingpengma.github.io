@@ -23,6 +23,7 @@ short_bio_text_justify: false
 short_bio: >-
   <div style="margin-bottom: 1em; text-align: center; font-family: 'Trajan', serif; font-size: 22px; font-weight: bold; color: #333; font-style: italic;">
   Imagination will take you everywhere.
+  <div style="text-align: center; font-family: 'Trajan', serif; font-size: 15px; font-weight: normal; color: #666; font-style: italic; margin-top: 0.2em;">— Albert Einstein</div>
   </div>
   <p>
     Hello, I'm <green>Yingpeng Ma (马英鹏)</green>. I study <green>AI-Driven Interactive Narrative</green>.
