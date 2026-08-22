@@ -1,7 +1,0 @@
-{% if include.short_abstract %}
-<p class="mt-0 mb-0 small text-muted abstract-short" data-item="{{ include.item.id }}">{{ include.item.abstract | truncatewords: 30 }}</p>
-<p class="mt-0 mb-0 small text-muted abstract-full" data-item="{{ include.item.id }}" style="display:none">{{ include.item.abstract }}</p>
-<p class="mt-1 mb-0"><a href="#" class="abstract-toggle" data-item="{{ include.item.id }}"><span class="abstract-label">Expand</span> <i class="fas fa-angle-double-right" aria-hidden="true"></i></a></p>
-{% else %}
-<p class="mt-0 mb-0 small text-muted">{{ include.item.abstract }}</p>
-{% endif %}

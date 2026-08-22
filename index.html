@@ -1,41 +1,198 @@
----
-layout: default
-title: Yingpeng Ma's Homepage
-navbar_title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yingpeng Ma</title>
+    <link rel="icon" href="basic/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  </head>
 
-<div class="row">
-    <div class="col-lg-3 col-md-4">
-        {% include widgets/profile_card_mini.html %}
-    </div>
-    <div class="col-lg-9 col-md-8">
+  <body>
+    <table style="width:100%;max-width:800px;table-layout:fixed;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+      <tr><td style="padding:0">
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;"><tbody>
+          <tr>
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p class="name" style="text-align:center">Yingpeng Ma <span class="name-chinese">马英鹏</span></p>
+              <p style="text-align:center;font-style:italic;color:#666">Imagination will take you everywhere.<br><small style="font-size:14px">— Albert Einstein</small></p>
+              <p>
+                I'm currently a first-year Ph.D. student at <a href="https://www.um.edu.mo/">University of Macau</a>, advised by <a href="https://personal.fic.um.edu.mo/derek-wong/">Prof. Derek F. Wong (黄辉)</a>.
+              </p>
+              <p>
+                Before that, I obtained my M.Sc. degree from <a href="https://www.um.edu.mo/">University of Macau</a> in 2026.<br>
+                I earned my B.Eng. degree from <a href="https://www.nwpu.edu.cn/">Northwestern Polytechnical University</a> in 2022, supervised by <a href="https://hellloxiaotian.github.io/">Prof. Chunwei Tian (田春伟)</a>.
+              </p>
+              <p>
+                I study AI-Driven Interactive Narrative. Recently, I have focused on designing AI Characters that are grounded in narrative logic, consistent in personality, and emotionally resonant.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:mayingpeng33@gmail.com">Email</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=Qrghm1QAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://github.com/yingpengma">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://twitter.com/mayingpeng">Twitter</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:35%;max-width:37%;vertical-align:middle;text-align:center">
+              <div class="profile-photo"><img alt="Portrait of Yingpeng Ma" src="basic/portrait.jpg"></div>
+              <small style="display:block;margin-top:8px">Photo by Runnan</small>
+            </td>
+          </tr>
+        </tbody></table>
 
-        {% include widgets/profile_card_bio_only.html %}
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;"><tbody><tr><td style="padding:16px;width:100%;vertical-align:middle">
+          <h2>Education</h2>
+          <ul style="list-style-type: disc; padding-left: 20px;">
+            <li style="margin: 5px;">
+              Ph.D. in Computer Science @ <a href="https://www.um.edu.mo/">University of Macau</a>, 2026.08-2030.06 (expected)
+              <br><span>Advisor: <a href="https://personal.fic.um.edu.mo/derek-wong/">Prof. Derek F. Wong</a></span>
+            </li>
+            <li style="margin: 5px;">
+              M.Sc. in Computer Science @ <a href="https://www.um.edu.mo/">University of Macau</a>, 2024.08-2026.06
+              <br><span>Advisor: <a href="https://personal.fic.um.edu.mo/derek-wong/">Prof. Derek F. Wong</a></span>
+            </li>
+            <li style="margin: 5px;">
+              B.Eng. in Software Engineering @ <a href="https://www.nwpu.edu.cn/">Northwestern Polytechnical University</a>, 2019.09-2022.07
+              <br><span>Supervisor: <a href="https://hellloxiaotian.github.io/">Prof. Chunwei Tian</a></span>
+            </li>
+          </ul>
+        </td></tr></tbody></table>
 
-        <!-- Debugging widgets -->
-        {% include widgets/debug_repo_name.html %}
-        {% include widgets/debug_url.html %}
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;"><tbody><tr><td style="padding:16px;width:100%;vertical-align:middle">
+          <h2>Experience</h2>
+          <ul style="list-style-type: disc; padding-left: 20px;">
+            <li style="margin: 5px;">
+              Research Intern @ Large Model Center, Shanghai AI Laboratory, 2025.08-2026.02 (Remote)
+              <br><span>Supervised by <a href="https://luoxiaoheics.github.io/">Dr. Yun Luo</a></span>
+            </li>
+            <li style="margin: 5px;">
+              Research Assistant @ Westlake NLP, Westlake University, 2023.02-2024.07
+              <br><span>Supervised by <a href="https://frcchang.github.io/">Prof. Yue Zhang</a></span>
+            </li>
+            <li style="margin: 5px;">
+              Research Intern @ Westlake NLP, Westlake University, 2022.08-2023.01
+              <br><span>Supervised by <a href="https://yanglinyi.github.io/">Prof. Linyi Yang</a></span>
+            </li>
+            <li style="margin: 5px;">
+              Research Intern @ Perception Vision Group, Northwestern Polytechnical University, 2021.07-2022.07
+              <br><span>Supervised by <a href="https://hellloxiaotian.github.io/">Prof. Chunwei Tian</a></span>
+            </li>
+          </ul>
+        </td></tr></tbody></table>
 
-        {% if site.data.display.homepage.show_news %}
-        {% assign count_news = site.news | size %}
-        {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-        {% endif %}
-        {% endif %}
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;"><tbody><tr><td style="padding:16px;width:100%;vertical-align:middle">
+          <h2>News</h2>
+          <ul style="list-style-type: disc; padding-left: 20px;">
+            <li style="margin: 5px;"><strong>[2026.07]</strong> Earned my M.Sc. degree from the <a href="https://www.um.edu.mo/">University of Macau</a> with the highest graduation distinction (Excellent).</li>
+            <li style="margin: 5px;"><strong>[2026.05]</strong> One first author paper was accepted to the <a href="https://icml.cc/Conferences/2026">ICML 2026 main</a> conference. Thrilled to have my first-authored paper accepted and looking forward to future contributions!</li>
+            <li style="margin: 5px;"><strong>[2025.01]</strong> One paper was accepted to the <a href="https://coling2025.org/">COLING 2025 main</a> conference.</li>
+            <li style="margin: 5px;"><strong>[2023.05]</strong> One co-first author paper was accepted to the <a href="https://2023.aclweb.org/">ACL 2023 main</a> conference.</li>
+            <li style="margin: 5px;"><strong>[2022.06]</strong> Earned my B.E. degree from NWPU in just 3 years and received the Excellent Graduation Thesis Award, supervised by Prof. Chunwei Tian.</li>
+            <li style="margin: 5px;"><strong>[2020.08]</strong> Won <a href="https://jiaowu.nwpu.edu.cn/info/1156/4748.htm">National First Prize</a> in the 15th National University Student Intelligent Car Competition.</li>
+          </ul>
+        </td></tr></tbody></table>
 
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-        %}
-        {% endif %}
-        
-        {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
-        {% endif %}
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;"><tbody><tr><td style="padding:16px;width:100%;vertical-align:middle">
+          <h2>Publications</h2>
+          <p>* indicates equal contribution / co-first author<br>
+          † Corresponding author</p>
+        </td></tr></tbody></table>
 
-        {% include widgets/miscellaneous.html %}
-    </div>
-</div>
+        <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;"><tbody>
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center"><img style="width:100%;max-width:100%" src="images/ICML26_ScriptBench.png" alt="ScriptBench"></td>
+            <td width="75%" valign="center">
+              <span class="papertitle">Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives</span><br>
+              <strong>Yingpeng Ma</strong>*, <a href="https://scholar.google.com/citations?user=pnKLj_wAAAAJ">Jianhao Yan</a>*, <a href="https://openreview.net/profile?id=~Bei_Shi2">Bei Shi</a>*, <a href="https://openreview.net/profile?id=~Ka_Hou_Kam1">Ka Hou Kam</a>, <a href="https://openreview.net/profile?id=~Runnan_Wang1">Runnan Wang</a>, <a href="https://sunbowliu.github.io/">Xuebo Liu</a>, <a href="https://cylnlp.github.io/">Yulong Chen</a>, <a href="https://frcchang.github.io/">Yue Zhang</a>, <a href="https://personal.fic.um.edu.mo/derek-wong/">Derek F. Wong</a><sup>†</sup><br>
+              <em>International Conference on Machine Learning (<strong>ICML</strong>, <strong>CCF-A</strong>)</em>, 2026<br>
+              <a href="https://openreview.net/forum?id=JoJUWsQBp0">Paper</a> / <a href="https://arxiv.org/abs/2608.08160">arXiv</a> / <a href="https://github.com/yingpengma/NCP-Bench">Code</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center"><img style="width:100%;max-width:100%" src="images/ICML26_ImageDenoising.png" alt="Overview of A Heterogeneous CNN with Transformers for Image Denoising"></td>
+            <td width="75%" valign="center">
+              <span class="papertitle">A Heterogeneous CNN with Transformers for Image Denoising</span><br>
+              <a href="https://hellloxiaotian.github.io/">Chunwei Tian</a>, <a href="https://scholar.google.com/citations?user=mkjAXJgAAAAJ">Tongtong Cheng</a>, <strong>Yingpeng Ma</strong>, <a href="https://xyz954.github.io/qizhu_brainnet/">Qi Zhu</a>, <a href="https://personal.fic.um.edu.mo/bobzhang/">Bob Zhang</a><sup>†</sup>, <a href="https://www4.comp.polyu.edu.hk/~csdzhang/">David Zhang</a><br>
+              <em>IEEE Transactions on Consumer Electronics (<strong>JCR Q1</strong>)</em>, 2026<br>
+              <a href="https://ieeexplore.ieee.org/document/11397421">Paper</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center"><img style="width:100%;max-width:100%" src="images/Focus.png" alt="Cover for Let’s Focus on Neuron"></td>
+            <td width="75%" valign="center">
+              <span class="papertitle">Let’s Focus on Neuron: Neuron-Level Supervised Fine-tuning for Large Language Model</span><br>
+              <a href="https://scholar.google.com/citations?user=4JGbFO0AAAAJ">Haoyun Xu</a>*, <a href="https://runzhe.me/">Runzhe Zhan</a>*, <strong>Yingpeng Ma</strong>, <a href="https://personal.fic.um.edu.mo/derek-wong/">Derek F. Wong</a><sup>†</sup>, <a href="https://scholar.google.com/citations?user=S2rz_mYAAAAJ">Lidia S. Chao</a><br>
+              <em>International Conference on Computational Linguistics (<strong>COLING</strong>, <strong>CCF-A</strong>)</em>, 2025<br>
+              <a href="https://aclanthology.org/2025.coling-main.630/">Paper</a> / <a href="https://github.com/NLP2CT/NeFT">Code</a><br>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center"><img style="width:100%;max-width:100%" src="images/FinTrust.png" alt="Cover for Measuring Consistency in Text-based Financial Forecasting Models"></td>
+            <td width="75%" valign="center">
+              <span class="papertitle">Measuring Consistency in Text-based Financial Forecasting Models</span><br>
+              <a href="https://yanglinyi.github.io/">Linyi Yang</a>*, <strong>Yingpeng Ma</strong>*, <a href="https://frcchang.github.io/">Yue Zhang</a><sup>†</sup><br>
+              <em>Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>, <strong>CCF-A</strong>)</em>, 2023<br>
+              <a href="https://aclanthology.org/2023.acl-long.769/">Paper</a> / <a href="https://arxiv.org/abs/2305.08524">arXiv</a> / <a href="https://github.com/yingpengma/FinTrust">Code</a><br>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;"><tbody><tr><td style="padding:16px;width:100%;vertical-align:middle">
+          <h2>Repositories</h2>
+        </td></tr></tbody></table>
+
+        <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;"><tbody>
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center"><img style="width:100%;max-width:100%" src="https://api.star-history.com/chart?repos=yingpengma/Awesome-Story-Generation&amp;type=date&amp;legend=top-left&amp;sealed_token=N1AoEkfzVTwweXf-jOwtQeyEom-9T6pdR0Cwtt5aVEk8iQXPc6GTIgKkvI7Npy3Qjqf32YXPggDJwevSsZQbtihw_SXDCobYGObakTgV-UPvXo8-msi7V-aApf-yOVTSbfAQvPw7TZkCGS_x_YNPmvx21fPY_iFDH6DczQ6VXPbU21GTSP0Et95dfV33" alt="Star History chart for Awesome-Story-Generation"></td>
+            <td width="75%" valign="center">
+              <span class="papertitle">Awesome-Story-Generation</span><br>
+              <strong>Yingpeng Ma</strong>, <a href="https://yanmaaaa.github.io/">Yan Ma</a><br>
+              <em><a href="https://github.com/yingpengma/Awesome-Story-Generation">GitHub Repository</a></em> <em>(<span id="repo-stars">--</span> stars)</em><br>
+              This repository collects an extensive list of papers about Story Generation and Storytelling, focusing on the era of Large Language Models.
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;"><tbody><tr><td style="padding:16px;width:100%;vertical-align:middle">
+          <h2>Honors &amp; Awards</h2>
+          <ul style="list-style-type: disc; padding-left: 20px;">
+            <li style="margin: 5px;">Excellent Graduation Thesis (rank 3/217), NWPU, 2022</li>
+            <li style="margin: 5px;">Excellent Student Award, NWPU, 2021</li>
+            <li style="margin: 5px;">Second-Class Scholarship (top 15%), NWPU, 2021</li>
+            <li style="margin: 5px;">National First Prize, the 15th National University Student Intelligent Car Competition, Chinese Association of Automation, 2020</li>
+          </ul>
+        </td></tr></tbody></table>
+
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;"><tbody><tr><td style="padding:16px;width:100%;vertical-align:middle">
+          <h2>Miscellaneous</h2>
+          <p>Previously, I was a Research Assistant at the Westlake NLP, supervised by <a href="https://frcchang.github.io/">Prof. Yue Zhang (张岳)</a> and <a href="https://yanglinyi.github.io/">Prof. Linyi Yang (杨林易)</a>.</p>
+          <p>In addition to my supervisors, I am also deeply indebted to the guidance and support of my senior labmates: <a href="https://scholar.google.com/citations?user=pnKLj_wAAAAJ">Dr. Jianhao Yan (颜建昊)</a>, <a href="https://luoxiaoheics.github.io/">Dr. Yun Luo (罗云)</a>, <a href="https://runzhe.me/">Dr. Runzhe Zhan (詹润哲)</a>, <a href="https://cylnlp.github.io/">Prof. Yulong Chen (陈雨龙)</a>, and <a href="https://yafuly.github.io/">Dr. Yafu Li (李雅夫)</a>. Their pursuit of excellence continues to motivate and guide my academic journey.</p>
+          <p>Last but not least, I am grateful to my girlfriend, <span style="color:#ff8c00">Runnan Wang (王润楠)</span>, for her unwavering love and companionship.</p>
+        </td></tr></tbody></table>
+
+      </td></tr>
+    </tbody></table>
+
+    <p style="text-align:center;font-size:small">&copy; Yingpeng Ma | Last updated: <span id="last-updated">Loading...</span></p>
+    <script>
+      const modified = new Date(document.lastModified);
+      const updated = Number.isNaN(modified.getTime()) ? new Date() : modified;
+      const month = updated.toLocaleString('en-US', { month: 'long' });
+      document.getElementById('last-updated').textContent = `${month}, ${updated.getFullYear()}`;
+
+      // Fetch GitHub stars
+      fetch('https://api.github.com/repos/yingpengma/Awesome-Story-Generation')
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById('repo-stars').innerHTML = '<strong>' + data.stargazers_count + '</strong>';
+        })
+        .catch(() => {});
+    </script>
+  </body>
+</html>
