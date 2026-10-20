@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RSS feed for the blog. When a post is published, add an <item> at the top and update lastBuildDate. -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yingpeng Ma’s Blog</title>
+    <link>https://yingpengma.github.io/blog/</link>
+    <description>Writings by Yingpeng Ma</description>
+    <language>en-us</language>
+    <atom:link href="https://yingpengma.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Hello, world</title>
+      <link>https://yingpengma.github.io/blog/posts/hello-world/</link>
+      <guid>https://yingpengma.github.io/blog/posts/hello-world/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>An example post that shows how an essay is laid out</description>
+    </item>
+    <item>
+      <title>A second example</title>
+      <link>https://yingpengma.github.io/blog/posts/second-example/</link>
+      <guid>https://yingpengma.github.io/blog/posts/second-example/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>A shorter post, with a folded aside and a block of code</description>
+    </item>
+  </channel>
+</rss>

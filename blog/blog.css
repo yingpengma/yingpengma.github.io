@@ -1,0 +1,606 @@
+/* Blog pages, after the writing list and essays on alexwang.ai. Loaded after ../stylesheet.css, which supplies the paper, ink and fonts. */
+
+.blog {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+/* The writing list is short lines only, so it sits in a narrower column centred on the page. */
+.blog--list {
+  max-width: 560px;
+}
+
+/* Undo the homepage's fixed sizes for p, a and strong, without outranking the classes below. */
+:where(.blog) p,
+:where(.blog) a,
+:where(.blog) strong {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Header: the name, linking home */
+.blog-header {
+  margin-bottom: 3rem;
+}
+
+.blog-header__name {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.blog-header__name a,
+.post-header__byline {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+/* Links inside headings take the heading's font rather than the body font the homepage gives every link. */
+.blog-header__name a,
+.post-preview__title a {
+  font-family: inherit;
+}
+
+/* Writing list */
+.section-title {
+  margin: 0 0 1.5rem;
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--ink-soft);
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 3rem;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+}
+
+.post-preview__date {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.post-preview__title {
+  display: block;
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Titles are set in ink with no underline; under the pointer they turn cinnabar and gain an underline. */
+.post-preview__title a {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration-thickness: 1px;
+  transition: color .2s ease, text-decoration-color .2s ease;
+}
+
+.post-preview__title a:hover {
+  font-weight: 600;
+}
+
+.post-preview__title a {
+  text-decoration-color: transparent;
+}
+
+.post-preview__title a:hover {
+  color: var(--cinnabar);
+  text-decoration-color: var(--cinnabar);
+  text-underline-offset: 0.2em;
+}
+
+.post-preview__excerpt {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+/* Essay: a wide reading column, as on alexwang.ai */
+.post {
+  max-width: min(97.5ch, calc(50vw + 174px));
+}
+
+/* On an essay the date and byline sit right above the title. */
+.post-header {
+  margin-bottom: 0;
+}
+
+.post-header__date {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.post-header__byline {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+}
+
+.post-title {
+  margin: 0.75rem 0 1.5rem;
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.post-excerpt {
+  margin: -1rem 0 1.5rem;
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+}
+
+/* Links under the summary, such as [code] or [interactive app], as on alexwang.ai: small, cinnabar, bracketed,
+   underlined only under the pointer. */
+.post-links {
+  margin: -1rem 0 0.75rem;
+  font-size: 0.9rem;
+}
+
+.post-links a,
+.post-links a:hover {
+  margin-right: 0.75em;
+  color: var(--cinnabar);
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.post-links a:hover {
+  text-decoration: underline 1px;
+  text-underline-offset: 0.2em;
+}
+
+.post-links ~ .post-content > :first-child {
+  margin-top: 0;
+}
+
+.post-content {
+  font-size: 1.25rem;
+  line-height: 1.65;
+}
+
+.post-content p {
+  margin: 1em 0 1.5rem;
+}
+
+/* Section headings as on alexwang.ai: bold Cormorant Garamond at 1.5em (h2) and 1.17em (h3) of the essay text. */
+.post-content h2,
+.post-content h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: inherit;
+  color: var(--ink);
+  scroll-margin-top: 1.5rem;
+}
+
+.post-content h2 {
+  margin: 2rem 0 1rem;
+  font-size: 1.5em;
+}
+
+.post-content h3 {
+  margin: 0 0 1em;
+  font-size: 1.17em;
+}
+
+/* Numbered and bulleted lists, as on alexwang.ai: indented 40px, items set like the text with no extra gap between
+   them, and the list spaced from the paragraphs around it. */
+.post-content ul,
+.post-content ol {
+  margin: 1em 0;
+  padding-left: 40px;
+}
+
+.post-content ul {
+  list-style: disc;
+}
+
+.post-content ol {
+  list-style: decimal;
+}
+
+.post-content li {
+  margin: 0;
+}
+
+.post-content li > p {
+  margin: 0;
+}
+
+/* A # after each section heading links to it. It appears when the heading is hovered;
+   on touch screens, which cannot hover, it stays faintly visible. */
+.heading-anchor {
+  margin-left: 0.35em;
+  color: var(--ink-soft);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity .2s ease;
+}
+
+@media (hover: none) {
+  .heading-anchor {
+    opacity: 0.4;
+  }
+}
+
+.post-content :is(h2, h3):hover .heading-anchor,
+.heading-anchor:focus-visible {
+  opacity: 1;
+}
+
+.post-content blockquote {
+  margin: 0 0 1.5rem;
+  padding-left: 1.25rem;
+  border-left: 2px solid color-mix(in srgb, var(--ink) 20%, transparent);
+  color: var(--ink-soft);
+}
+
+/* Code, in ink on the paper like everything else: IBM Plex Mono, whose thin, open strokes sit well beside Newsreader.
+   A block is set off by a thin rule on its left, the same as a quotation, and scrolls sideways when a line is too long. */
+.post-content pre {
+  margin: 0 0 1.5rem;
+  padding: 0.1rem 0 0.1rem 1.25rem;
+  overflow-x: auto;
+  border-left: 2px solid color-mix(in srgb, var(--ink) 20%, transparent);
+  font-size: 0.8em;
+  line-height: 1.7;
+}
+
+.post-content code {
+  font-family: 'IBM Plex Mono', ui-monospace, Menlo, Consolas, monospace;
+  color: var(--ink);
+}
+
+/* Inline code, as on alexwang.ai: a smaller monospace set in a thin box. */
+.post-content :not(pre) > code {
+  font-size: 0.82em;
+  padding: 0.1em 0.35em;
+  border: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--ink) 4%, transparent);
+}
+
+.post-content figure,
+.post-content > p > img:not(.seal) {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1.5rem;
+}
+
+/* The seal closes an essay after its last word, and the writing list in the footer. */
+.post-content .seal,
+.blog-footer .seal {
+  width: 1.05em;
+  height: 1.05em;
+}
+
+.blog-footer {
+  text-align: center;
+  font-size: small;
+  color: var(--ink-soft);
+}
+
+/* On an essay the seal already closes the text, so the footer is just the name, set apart from the essay. */
+.post-footer {
+  margin-top: 4rem;
+}
+
+/* Contents: folded above the essay on narrow screens, pinned in the left margin on wide ones. */
+.toc {
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.toc summary {
+  cursor: pointer;
+}
+
+.toc ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.1rem;
+  list-style: none;
+}
+
+.toc ul ul {
+  margin-top: 0;
+  padding-left: 1rem;
+}
+
+.toc li {
+  margin: 0.2rem 0;
+}
+
+.toc a,
+.toc a:hover {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.toc a:hover,
+.toc a.is-active {
+  color: var(--ink);
+}
+
+@media (min-width: 1360px) {
+  .toc {
+    position: fixed;
+    top: 8rem;
+    left: calc(50vw - 450px - 210px);
+    width: 180px;
+    max-height: calc(100vh - 10rem);
+    overflow-y: auto;
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .toc summary {
+    pointer-events: none;
+    list-style: none;
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    color: var(--ink);
+  }
+
+  .toc summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .toc ul {
+    padding-left: 0;
+  }
+
+  .toc ul ul {
+    padding-left: 0.8rem;
+  }
+}
+
+/* Notes. A small superscript in the text; the note itself sits in the right margin on wide screens and in a list
+   under a rule at the foot of the essay otherwise. */
+.post-content sup {
+  line-height: 0;
+}
+
+.footnote-ref,
+.footnote-backref,
+.sidenote sup {
+  color: var(--ink-soft);
+  font-size: 0.75em;
+  text-decoration: none;
+}
+
+.footnote-ref:hover,
+.footnote-backref:hover {
+  font-weight: inherit;
+  color: var(--ink);
+}
+
+.footnotes {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.footnotes hr,
+.post-content hr {
+  border: none;
+  border-top: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
+  margin: 2rem 0;
+}
+
+.sidenote {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .sidenote {
+    display: block;
+    float: right;
+    clear: right;
+    width: 220px;
+    margin: 0.3rem -260px 1rem 0;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--ink-soft);
+  }
+
+  .footnotes {
+    display: none;
+  }
+}
+
+/* Cite this post: under a rule, folded until opened. */
+.citation {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.citation summary {
+  cursor: pointer;
+}
+
+.citation__box {
+  position: relative;
+}
+
+.citation pre {
+  overflow-x: auto;
+  padding: 1rem;
+  background: color-mix(in srgb, var(--ink) 4%, transparent);
+  border-radius: 2px;
+}
+
+.citation__copy {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.15rem 0.55rem;
+  font: inherit;
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  background: var(--paper);
+  border: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: color .2s ease, border-color .2s ease;
+}
+
+.citation__copy:hover,
+.citation__copy:focus-visible {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+/* You might also like: unlike the reference, the entries keep a gap between them. */
+.more {
+  margin-top: 4rem;
+}
+
+.more .post-preview {
+  margin-bottom: 1.25rem;
+}
+
+/* Links in an essay, as on alexwang.ai: ink text over a thin cinnabar rule; under the pointer the text turns cinnabar too. */
+.post-content a:not(.footnote-ref, .footnote-backref, .heading-anchor, .seal-link) {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--cinnabar) 50%, transparent);
+  transition: color .2s ease, border-color .2s ease;
+}
+
+.post-content a:not(.footnote-ref, .footnote-backref, .heading-anchor, .seal-link):hover {
+  color: var(--cinnabar);
+  font-weight: inherit;
+  border-bottom-color: var(--cinnabar);
+}
+
+/* Charts, copied one to one from the crosstalk charts on alexwang.ai: the reference site's warm ink (#373229) for
+   lines, grid and axes, lighter for weaker series; text in the body font with italic variables; a faint wash marks
+   the region where recall fails. */
+.chart {
+  margin: 2rem 0;
+}
+
+.chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  font-family: var(--font-body);
+}
+
+.chart__grid { stroke: #373229; stroke-opacity: .1; stroke-width: 1; }
+.chart__one { stroke-opacity: .45; stroke-dasharray: 4 4; }
+.chart__axis { stroke: #373229; stroke-opacity: .45; stroke-width: 1; }
+.chart__tick { font-size: 13px; fill: #595a5d; }
+.chart__label { font-size: 14px; fill: #595a5d; }
+.chart__series { font-size: 15px; fill: #2c2d30; }
+.chart__var { font-style: italic; }
+.chart__sup,
+.chart__sub { font-size: 11px; }
+.chart__line polyline { fill: none; stroke: #373229; stroke-opacity: var(--op); stroke-width: 1.6; }
+.chart__line circle { fill: #373229; fill-opacity: var(--op); stroke: var(--paper); stroke-width: 1.5; }
+.chart__line--accent polyline { stroke: var(--cinnabar); stroke-opacity: 1; stroke-width: 2; }
+.chart__line--accent circle { fill: var(--cinnabar); fill-opacity: 1; }
+.chart__line circle:hover { r: 5.5; }
+.chart__drowned { fill: #373229; opacity: .07; }
+.chart__drowned-label { font-size: 13px; font-style: italic; fill: #595a5d; }
+.chart__note { font-size: 13px; fill: #595a5d; }
+.chart__drop { stroke: #373229; stroke-width: 1.5; stroke-dasharray: 2 3; }
+
+.chart__caption {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+/* Tables, as on alexwang.ai: horizontal rules only, a darker rule under the header, left-aligned and top-aligned
+   cells, a little smaller than the text, scrolling sideways when too wide. */
+.post-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.post-content th,
+.post-content td {
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0.4em 0.75em;
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
+  text-align: left;
+  vertical-align: top;
+}
+
+.post-content th {
+  font-weight: 600;
+  border-bottom-color: var(--ink-soft);
+}
+
+/* Asides: a rule down the left; a folded one opens on click to show what it holds. */
+.callout {
+  margin: 0 0 1.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid color-mix(in srgb, var(--ink) 15%, transparent);
+}
+
+.callout__title {
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+details.callout:not([open]) > .callout__title {
+  margin-bottom: 0;
+}
+
+.callout > p:last-child {
+  margin-bottom: 0;
+}
+
+/* Phones: less padding, a smaller title, and no fixed contents. */
+@media (max-width: 600px) {
+  .blog {
+    padding: 2rem 1.25rem;
+  }
+
+  .blog-header__name {
+    font-size: 1.9rem;
+  }
+
+  .post-title {
+    font-size: 2rem;
+  }
+
+  .post-content {
+    font-size: 1.125rem;
+  }
+
+  .post-content ul,
+  .post-content ol {
+    padding-left: 1.5rem;
+  }
+}
